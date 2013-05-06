@@ -1,0 +1,40 @@
+Puppetconf '13
+==============
+
+Oscar: Rapid iteration with Vagrant and Puppet Enterprise
+---------------------------------------------------------
+
+When trying to debug software problems it's critical to be able to reproduce the
+original situation, and Puppet Enterprise is no exception to this.  The Puppet
+Labs support team needs a way to rapidly reproduce customer issues across a wide
+range of operating systems and various versions of Puppet Enterprise.
+
+Oscar is a set of Vagrant plugins that handles machine provisioning and
+configuration to install Puppet Enterprise. It's designed to make building a
+Puppet Enterprise as simple as running `vagrant up`. While Oscar was originally
+built for supporting Puppet Enterprise, it provides a general platform for
+developing and testing against Puppet Enterprise. This talk will go over the
+history of Oscar, the current state, how it's used, and where to get it.
+
+What should the audience gain from the presentation?
+----------------------------------------------------
+
+At the end of the talk, the audience should understand the basics of Vagrant and
+why it's such a good fit for Puppet Enterprise. They will understand the
+difficulties of deploying software into a multi-vm Vagrant environment, and how
+Oscar handles these challenges and makes installing Puppet Enterprise
+effortless. They should see Oscar in action and understand how to rapidly deploy
+Puppet Enterprise using Vagrant. They should have the resources to try out Oscar
+and use it for developing and testing Puppet modules in a hassle-free,
+reproducible environment.
+
+Speaker Biography
+-----------------
+
+Adrien Thebo has been in the Operations/Software development field since 2005,
+starting at small IT shop in Boise, Idaho. He started at Puppet Labs in 2011 on
+the Operations team, and used Puppet to run the Puppet Labs infrastructure. In
+2013 he transferred to the Community platform team, working with contributors to
+merge their contributions in Puppet Core. He develops and maintains a number of
+Puppet modules and tools around Puppet, and when he's not writing code for
+Puppet then he's probably blogging about it.
