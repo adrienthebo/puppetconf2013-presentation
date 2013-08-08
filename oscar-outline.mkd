@@ -1,0 +1,96 @@
+OUTLINE - Rapid Iteration With Vagrant and Puppet Enterprise
+============================================================
+
+About the presenter
+-------------------
+
+  * Ops/Dev, ~8 years
+  * Operations @puppetlabs, 2 years
+  * Support @puppetlabs, ???
+  * Software Engineer @puppetlabs, 6 months
+
+Projects
+--------
+
+### r10k - Better Puppet deployment, powered by robots
+
+### puppet-{portage,network,filemapper}
+
+  * Puppetize all-the-things.jpg
+
+How about this Vagrant thing?
+-----------------------------
+
+  * No more artisan VMs
+  * Repeatable, shareable infrastructure
+
+How it all began
+----------------
+
+Life at Puppet Labs Operations^WSupport
+---------------------------------------
+
+  * Puppet Enterprise 2.0 release
+  * Need to reproduce customer problems
+    * Various supported platforms
+    * Various node configurations
+  * Speed/reproducibility paramount
+
+VAGRANT!
+
+Vagrant, used in anger
+--------------
+
+### Vagrant
+
+  * VMs are very broken
+    * It's always a DNS problem
+    * intra-VM connectivity
+
+  * Handling complex vagrant configs
+    * Behold the horror of the 185 line Vagrantfile
+
+Solving common problems
+-----------------------
+
+  * Vagrant hosts
+  * Vagrant auto-network
+  * Vagrant config-builder
+  * Vagrant pe-build
+
+### Infrastructure
+
+  * staging? pre-production?
+    * aint-nobody-got-time-for-that.jpg
+
+Reviewing the problem space
+---------------------------
+
+  * Need to create environments that replicate production
+  * Reproducible
+  * Flexible
+  * Fast
+
+  * ...basically pre-production in a box
+
+Oscar!
+------
+
+  1. Install Vagrant
+  2. `vagrant plugin install oscar`
+  3. `vagrant oscar init`
+  4. `vagrant up`
+
+What Oscar can do for you
+-------------------------
+
+  * Model your production environment
+    * Spin up the needed nodes
+    * Apply your Puppet manifests
+    * Blow it up
+    * Not get paged!
+
+Demo time!
+----------
+
+Spin up sales engineer pre-production environment
