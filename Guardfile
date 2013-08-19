@@ -3,4 +3,5 @@
 
 guard 'rake', :task => 'build' do
   watch(%r{^presentation.text})
+  watch(%r{^templates/**/*})
 end

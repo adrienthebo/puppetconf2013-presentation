@@ -2,12 +2,12 @@ def __DIR__
   File.expand_path('..', __FILE__)
 end
 
-PRESENTATION_FILE = 'oscar-presentation.text'
+PRESENTATION_FILE = 'presentation.text'
 
 desc 'Build presentation'
 task :build do
-  sh %{slideshow --h2 --output output --template reveal.js --config #{__DIR__} #{PRESENTATION_FILE}}
-  sh %{cp PRESENTATION_FILE output/presentation.txt}
+  sh %{slideshow --config #{__DIR__} build --h2 --output output --template reveal.js #{PRESENTATION_FILE}}
+  sh %{cp #{PRESENTATION_FILE} output/presentation.txt}
   sh %{cp output/presentation.html output/index.html}
 end
 

@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
 
-    <title><%= @headers['title'] %></title>
+    <title><%= @headers['title'] %> - <%= @headers['subtitle'] %></title>
 
-    <meta name="description" content="Writing and Sharing Great Modules on the Forge">
+    <meta name="description" content="<%= @headers['title'] %> - <%= @headers['subtitle'] %>">
     <meta name="author" content="<%= @headers['author']%>">
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -39,6 +39,7 @@
 
         <section>
           <h1><%= @headers['title'] %></h1>
+          <h2><%= @headers['subtitle'] %></h1>
           <p><%= @headers['author'] %></p>
           <p><small><%= @headers['contact'] %></small> </p>
         </section>
@@ -69,8 +70,10 @@
         history: true,
         center: true,
 
-        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+        // theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        theme: 'night',
+        // transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+        transition: Reveal.getQueryHash().transition || 'fade',
 
         // Optional libraries used to extend on reveal.js
         dependencies: [
