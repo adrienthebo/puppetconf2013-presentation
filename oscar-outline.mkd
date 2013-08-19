@@ -1,72 +1,83 @@
 OUTLINE - Rapid Iteration With Vagrant and Puppet Enterprise
 ============================================================
 
-About the presenter
+Introduction
+------------
+
+  * Title slide
+    * Rapid iteration with Vagrant and Puppet Enterprise
+    * Adrien Thebo | @nullfinch | freenode: finch
+    * Puppet Labs
+  * About the presenter
+    * Ops/Dev, ~8 years
+    * Operations @puppetlabs, 2 years
+    * Support @puppetlabs, ???
+    * Software Engineer @puppetlabs, 6 months
+  * Projects
+    * r10K
+      * Better Puppet deployment, powered by robots
+    * Puppet modules
+      * puppet-network
+      * puppet-portage
+      * puppet-filemapper
+
+Introducing Vagrant
 -------------------
 
-  * Ops/Dev, ~8 years
-  * Operations @puppetlabs, 2 years
-  * Support @puppetlabs, ???
-  * Software Engineer @puppetlabs, 6 months
+  * So how about this Vagrant thing?
+  * Audience poll
+    * Heard of Vagrant?
+    * Tried Vagrant once?
+    * Use Vagrant regularly?
+    * Develop on Vagrant?
+    * Are the author of Vagrant?
+  * A brief introduction to Vagrant
+    * Before: artisan VMs
+      * Oh those wacky Portlanders
+      * home grown, grain fed, one of a kind, snapshotted VMs
+      * "It works in my environment"
+    * Vagrant:
+      * Easy to configure
+      * Reproducible
+      * Portable
+      * Generate a VM, provision it, use it, discard it when done
 
-Projects
---------
+Laying the groundwork
+---------------------
 
-### r10k - Better Puppet deployment, powered by robots
-
-### puppet-{portage,network,filemapper}
-
-  * Puppetize all-the-things.jpg
-
-How about this Vagrant thing?
------------------------------
-
-  * No more artisan VMs
-  * Repeatable, shareable infrastructure
-
-How it all began
-----------------
-
-Life at Puppet Labs Operations^WSupport
----------------------------------------
-
+  * Puppet Labs Ops team,
+    * Operations being drafted into other work? INCONCEIVABLE! (add jpg)
   * Puppet Enterprise 2.0 release
   * Need to reproduce customer problems
     * Various supported platforms
     * Various node configurations
   * Speed/reproducibility paramount
+    * Have to meet SLA
+    * Also handle other operations work
 
-VAGRANT!
+  * VAGRANT!
 
-Vagrant, used in anger
---------------
+  * bla bla bla how it's used
 
-### Vagrant
 
-  * VMs are very broken
-    * It's always a DNS problem
-    * intra-VM connectivity
+Problems
+--------
 
-  * Handling complex vagrant configs
-    * Behold the horror of the 185 line Vagrantfile
-
-Solving common problems
------------------------
-
-  * Vagrant hosts
-  * Vagrant auto-network
-  * Vagrant config-builder
-  * Vagrant pe-build
-
-### Infrastructure
-
-  * staging? pre-production?
-    * aint-nobody-got-time-for-that.jpg
+  * Vagrant can only be good as the boxes you use with it
+    * garbage in, garbage out
+    * Boxes get stale
+  * Some assembly required
+    * Inter-VM communication?
+    * DNS?
+  * Scaling vagrant configs
+    * Handling complex vagrant configs
+      * Behold the horror of the 185 line Vagrantfile
+    * Sharing behavior between VMs
 
 Reviewing the problem space
 ---------------------------
 
-  * Need to create environments that replicate production
+* Need to create environments that replicate production
   * Reproducible
   * Flexible
   * Fast
@@ -81,8 +92,16 @@ Oscar!
   3. `vagrant oscar init`
   4. `vagrant up`
 
+Demo time!
+----------
+
+Spin up sales engineer pre-production environment
+
 What Oscar can do for you
 -------------------------
+
+  * staging? pre-production?
+    * aint-nobody-got-time-for-that.jpg
 
   * Model your production environment
     * Spin up the needed nodes
@@ -90,7 +109,11 @@ What Oscar can do for you
     * Blow it up
     * Not get paged!
 
-Demo time!
-----------
+Solving common problems
+-----------------------
 
-Spin up sales engineer pre-production environment
+  * Vagrant hosts
+  * Vagrant auto-network
+  * Vagrant config-builder
+  * Vagrant pe-build
+
