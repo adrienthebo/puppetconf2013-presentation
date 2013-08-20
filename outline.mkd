@@ -1,0 +1,31 @@
+title: Oscar
+subtitle: Rapid iteration with Vagrant and Puppet Enterprise
+author: Adrien Thebo | Puppet labs
+contact: @nullfinch | Freenode: finch
+
+Introduction to speaker
+-----------------------
+
+Introduction to Vagrant
+-----------------------
+
+Vagrant @ Puppet Labs
+---------------------
+
+Limitations
+-----------
+
+Introduction to Oscar
+---------------------
+
+Demos
+-----
+
+Oscar Internals
+---------------
+
+Questions
+---------
+
+Summary
+-------
