@@ -1,0 +1,17 @@
+Vagrant @ Puppet Labs
+---------------------
+
+  * Puppet Labs Ops team,
+    * Operations being drafted into other work? INCONCEIVABLE! (add jpg)
+  * Puppet Enterprise 2.0 release
+  * Need to reproduce customer problems
+    * Various supported platforms
+    * Various node configurations
+  * Speed/reproducibility paramount
+    * Have to meet SLA
+    * Also handle other operations work
+
+  * VAGRANT!
+
+  * bla bla bla how it's used
+
