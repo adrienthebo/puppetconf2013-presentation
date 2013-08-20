@@ -1,0 +1,21 @@
+Intro to Vagrant
+----------------
+
+  * So how about this Vagrant thing?
+  * Audience poll
+    * Heard of Vagrant?
+    * Tried Vagrant once?
+    * Use Vagrant regularly?
+    * Develop on Vagrant?
+    * Are the author of Vagrant?
+  * A brief introduction to Vagrant
+    * Before: artisan VMs
+      * Oh those wacky Portlanders
+      * home grown, grain fed, one of a kind, snapshotted VMs
+      * "It works in my environment"
+    * Vagrant:
+      * Easy to configure
+      * Reproducible
+      * Portable
+      * Generate a VM, provision it, use it, discard it when done
+
