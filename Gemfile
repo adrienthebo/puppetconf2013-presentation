@@ -13,3 +13,7 @@ group(:guard) do
 end
 
 gem 'nanoc'
+
+gem 'rack'
+gem 'adsf'
+gem 'mime-types'
