@@ -66,5 +66,7 @@ Thanks
 Credits
 -------
 
-  * Presentation made with Reveal.js & Slideshow
+  * Layout by Nanoc
+  * Presentation by Reveal.js
+
 <% end %>

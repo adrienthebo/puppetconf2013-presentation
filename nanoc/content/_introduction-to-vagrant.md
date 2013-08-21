@@ -13,7 +13,7 @@ Mandatory audience fun time!
     * used Vagrant regularly?
     * developed on Vagrant or plugins?
     * created Vagrant?
-    <% end %>
+<% end %>
 
 <% slide do %>
 A brief introduction to Vagrant
