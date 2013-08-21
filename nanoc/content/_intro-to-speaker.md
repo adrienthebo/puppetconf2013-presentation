@@ -14,21 +14,36 @@ Introductions n' stuff
 <% end %>
 
 <% slide do %>
+
+Things I do
+-----------
+
+<% end %>
+
+<% slide do %>
 ## r10k
 
 Better Puppet deployment, powered by robots
+
+<% notes do %>
+  * Hybrid solution for deploying Puppet
+  * Implements Puppetfile
+  * Implementation of dynamic environment deployment
+<% end %>
+
 <% end %>
 
 <% slide do %>
 Puppet modules
 --------------
 
-<h3 style="margin-top:-200px; float:left; text-align:left;">Things I do</h3>
-
-<small>Shocking, rite?</small>
-
   * puppet-network
   * puppet-portage
   * puppet-filemapper
+
+<% notes do %>
+  * What? Puppet Labs employee? Writing Puppet modules?
+  * SHOCKING
+<% end %>
 
 <% end %>

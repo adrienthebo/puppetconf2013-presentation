@@ -26,6 +26,13 @@ Good idea, bad idea
 
   * Good idea: hand crafted, one of a kind artisan furniture
   * Bad idea: hand crafted, one of a kind artisan VMs
+
+<% notes do %>
+  * It's time for another episode of Good idea, bad idea.
+  * Good idea: hand crafted, one of a kind artisan furniture
+  * Bad idea: hand crafted, one of a kind artisan VMs
+<% end %>
+
 <% end %>
 
 <% slide do %>
@@ -37,8 +44,16 @@ Hand rolled VMs
   * No automation
   * Unreproducible
   * Full of forgotten hacks
+
+<% notes do %>
+  * No automation
+  * Unreproducible
+  * Full of forgotten hacks
   * "It works in my environment!"
 <% end %>
+
+<% end %>
+
 
 <% slide do %>
 Vagrant is...
@@ -60,5 +75,14 @@ Vagrant Workflow
   * use/break
   * discard
   * It's your very own cloud!
+
+<% notes do %>
+
+  * Generate and boot a VM from a base box
+  * Provision the VM on boot for your needs
+  * Shapshot it, use it, break it, revert it
+  * Tear it down and have a clean environment
+
+<% end %>
 
 <% end %>
