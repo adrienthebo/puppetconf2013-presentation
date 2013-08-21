@@ -13,7 +13,7 @@ contact: "@nullfinch | Freenode: finch"
 
 <%= partial 'limitations' %>
 
-<%= partial 'introduction-to-oscar.mkd' %>
+<%= partial 'introduction-to-oscar' %>
 
 <%= partial 'demo-time' %>
 

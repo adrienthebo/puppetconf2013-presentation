@@ -191,5 +191,10 @@ A descent into madness
 
 <small>(This is a very sad Vagrantfile)</small>
 
+<h2 class="fragment" style="vertical-align: middle;">DONT. DO. THIS.</span>
+
+<% notes do %>
+  * DON'T. DO. THIS.
+<% end %>
 
 <% end %>
