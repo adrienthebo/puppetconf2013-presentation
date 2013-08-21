@@ -1,0 +1,34 @@
+Limitations
+----------
+
+If this presentation was all roses and butterflies
+
+Then it would be very boring.
+
+Choose your own adventure
+-------------------------
+
+  * Like any tool, Vagrant makes tradeoffs
+  * Some use cases are easier than others
+
+Vagrant excels at...
+-----------------
+
+  * Static/Stable environments
+  * Configure VM definition
+  * Set up provisioning
+  * `git commit -m 'Add Vagrantfile'`
+
+Vagrant struggles with...
+-------------------
+
+  * Highly mutable environments
+  * Complex provisioning steps
+  * Configuration reuse
+    * Partial configuration
+    * Distributable configuration
+
+<%= File.read './presentation/dsl.mkd' %>
+
+<%= File.read './presentation/limitations-network.mkd' %>
+

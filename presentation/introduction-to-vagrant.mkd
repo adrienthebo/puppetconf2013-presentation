@@ -1,0 +1,49 @@
+So how about that Vagrant?
+--------------------------
+
+Mandatory audience fun time!
+----------------------------
+
+  * Who has...
+    * heard of Vagrant?
+    * tried Vagrant?
+    * used Vagrant regularly?
+    * developed on Vagrant or plugins?
+    * created Vagrant?
+
+A brief introduction to Vagrant
+-------------------------------
+
+Good idea, bad idea
+-------------------
+
+  * Good idea: hand crafted, one of a kind artisan furniture
+  * Bad idea: hand crafted, one of a kind artisan VMs
+
+Before Vagrant
+--------------
+
+Hand rolled VMs
+
+  * No automation
+  * Unreproducible
+  * Full of forgotten hacks
+  * "It works in my environment!"
+
+Vagrant is...
+-------------
+
+Local VM infrastructure without the pain
+
+  * Easy to configure
+  * Reproducible
+  * Portable
+
+Vagrant Workflow
+----------------
+
+  * generate
+  * provision
+  * use/break
+  * discard
+  * It's your very own cloud!
