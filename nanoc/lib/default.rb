@@ -15,8 +15,6 @@ def slide(&block)
   buffer << %[</section>\n]
   buffer << %[<!-- end slide -->]
 
-  $slide_index += 1
-
   buffer
 end
 
