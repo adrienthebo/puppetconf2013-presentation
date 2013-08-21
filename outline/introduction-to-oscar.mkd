@@ -1,0 +1,20 @@
+An introduction to Oscar
+------------------------
+
+  * Set of Vagrant plugins
+    * Install and configure PE
+      * pe_build
+    * Ease day to day interaction with Vagrant
+      * config_builder
+      * auto_network
+      * hosts
+    * Templates and configuration defaults for PE
+
+PE stack in a box
+-----------------
+
+  * Configure your development environment like production
+  * Develop your modules in complete isolation
+  * Simulate app deployments before going live
+  * Pre-production in a box!
+
