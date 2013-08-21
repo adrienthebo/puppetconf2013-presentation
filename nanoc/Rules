@@ -23,6 +23,10 @@ compile '*' do
     # don’t filter binary items
   else
     filter :erb
+    case item[:extension]
+    when 'mkd', 'md'
+      filter :kramdown
+    end
     layout 'default'
   end
 end
