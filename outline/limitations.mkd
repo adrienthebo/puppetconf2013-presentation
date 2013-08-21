@@ -1,21 +1,25 @@
-Limitations
------------
+Challenges
+----------
 
 If this presentation was all roses and butterflies
 
 Then it would be very boring.
 
-  * Vagrant
-
-
-Limitations - Configuration
----------------------------
+Configuring Vagrant
+-------------------
 
   * Vagrant best suited for static config
     * Configure your environment
     * Set up provisioning
     * `git commit -m 'Add Vagrantfile`
   * Pains when rapidly changing an env
+
+Handling complexity
+-------------------
+
+  * Extremely dynamic environment
+  * Ease of configuration
+  * Reuse and redistribution
 
 Limitations - Vagrantfile
 -------------------------

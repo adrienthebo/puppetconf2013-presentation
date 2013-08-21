@@ -10,6 +10,26 @@ An introduction to Oscar
       * hosts
     * Templates and configuration defaults for PE
 
+Network configuration
+---------------------
+
+  * Configure networking
+  * Set up addresses
+  * Configure DNS
+
+Installing PE
+-------------
+
+  * PE configuration optimized for Vagrant
+  * Download installers on demand
+
+Flexible configuration
+----------------------
+
+  * Use YAML!
+  * Or JSON!
+  * It doesn't matter!
+
 PE stack in a box
 -----------------
 
@@ -17,4 +37,4 @@ PE stack in a box
   * Develop your modules in complete isolation
   * Simulate app deployments before going live
   * Pre-production in a box!
-
+  * Stable Puppet environment
