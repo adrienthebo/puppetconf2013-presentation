@@ -11,3 +11,5 @@ group(:guard) do
   gem 'guard'
   gem 'guard-rake'
 end
+
+gem 'nanoc'
