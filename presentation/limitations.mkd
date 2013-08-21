@@ -28,7 +28,7 @@ Vagrant struggles with...
     * Partial configuration
     * Distributable configuration
 
-<%= File.read './presentation/dsl.mkd' %>
+<%= render './presentation/limitations-dsl.mkd' %>
 
-<%= File.read './presentation/limitations-network.mkd' %>
+<%= render './presentation/limitations-network.mkd' %>
 

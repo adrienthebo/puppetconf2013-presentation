@@ -9,16 +9,16 @@ Introductions n' stuff
     * Operations Engineer, 2 years
     * Community Software Engineer, 6 months
 
-<h3 style="text-align:left;">Things I do</h3>
-
 ## r10k
+
+<h3 style="margin-top:-200px; float:left; text-align:left;">Things I do</h3>
 
 Better Puppet deployment, powered by robots
 
-Things I do
------------
-
 Puppet modules
+--------------
+
+<h3 style="margin-top:-200px; float:left; text-align:left;">Things I do</h3>
 
 <small>Shocking, rite?</small>
 

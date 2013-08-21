@@ -5,17 +5,13 @@ contact: @nullfinch | Freenode: finch
 
 <% require File.expand_path('../helpers.rb', __FILE__) %>
 
-<%= File.read './presentation/intro-to-speaker.mkd' %>
+<%= render './presentation/intro-to-speaker.mkd' %>
 
-<%= File.read './presentation/introduction-to-vagrant.mkd' %>
+<%= render './presentation/introduction-to-vagrant.mkd' %>
 
-<%= File.read './presentation/vagrant-at-puppet-labs.mkd' %>
+<%= render './presentation/vagrant-at-puppet-labs.mkd' %>
 
-<%= File.read './presentation/limitations.mkd' %>
-
-<%= File.read './presentation/madness.mkd' %>
-
-<%= File.read './presentation/limitations-network.mkd' %>
+<%= render './presentation/limitations.mkd' %>
 
 The reality
 -----------
@@ -23,7 +19,7 @@ The reality
   * Vagrant can't support every configuration out of the box
   * Batteries not included
 
-<%= File.read './presentation/introduction-to-oscar.mkd' %>
+<%= render './presentation/introduction-to-oscar.mkd' %>
 
 Demo time!
 ----------
