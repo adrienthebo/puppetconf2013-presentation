@@ -22,17 +22,30 @@ def slide(&block)
   buffer
 end
 
+def notes(&block)
+  buffer = eval('_erbout', block.binding)
+
+  require 'nanoc/helpers/capturing'
+  extend Nanoc::Helpers::Capturing
+
+  c = capture(&block)
+
+  buffer << %[<!-- begin notes for slide #{$slide_index} -->]
+  buffer << %[<aside class="notes" markdown="1">]
+  buffer << c
+  buffer << %[</aside>\n]
+  buffer << %[<!-- end nodes for slide #{$slide_index} -->]
+
+  buffer
+end
+
 def partial(m)
 
   regex = %r[\A/_#{m}/\Z]
 
   puts "searching for #{regex}"
   found = @items.select { |i| i.identifier.match regex }.first
-
-
   puts "found!" if found
-  require 'pry'
-  binding.pry if found
 
-  found.raw_content
+  found ? found.compiled_content : %[<!-- Warning: could not find partial #{m.inspect} -->]
 end
