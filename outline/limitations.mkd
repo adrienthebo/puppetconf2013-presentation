@@ -1,0 +1,28 @@
+Limitations
+-----------
+
+If this presentation was all roses and butterflies
+
+Then it would be very boring.
+
+  * Vagrant
+
+
+Limitations - Configuration
+---------------------------
+
+  * Vagrant best suited for static config
+    * Configure your environment
+    * Set up provisioning
+    * `git commit -m 'Add Vagrantfile`
+  * Pains when rapidly changing an env
+
+Limitations - Vagrantfile
+-------------------------
+
+  * Vagrantfile DSL
+    * Pro - all the power of Ruby
+    * Con - all the power of Ruby
+  * Great for Ruby developers
+  * Less great for non-developers
+    * Ruby DSL - it's a tarp!
