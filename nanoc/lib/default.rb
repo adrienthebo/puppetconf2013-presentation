@@ -1,8 +1,6 @@
 # All files in the 'lib' directory will be loaded
 # before nanoc starts compiling.
 
-$slide_index = 1
-
 def slide(&block)
   buffer = eval('_erbout', block.binding)
 
@@ -11,11 +9,11 @@ def slide(&block)
 
   c = capture(&block)
 
-  buffer << %[<!-- begin slide #{$slide_index} -->]
-  buffer << %[<section id="slide-#{$slide_index}" markdown="1">]
+  buffer << %[<!-- begin slide -->]
+  buffer << %[<section markdown="1">]
   buffer << c
   buffer << %[</section>\n]
-  buffer << %[<!-- end slide #{$slide_index} -->]
+  buffer << %[<!-- end slide -->]
 
   $slide_index += 1
 
@@ -30,11 +28,9 @@ def notes(&block)
 
   c = capture(&block)
 
-  buffer << %[<!-- begin notes for slide #{$slide_index} -->]
   buffer << %[<aside class="notes" markdown="1">]
   buffer << c
   buffer << %[</aside>\n]
-  buffer << %[<!-- end nodes for slide #{$slide_index} -->]
 
   buffer
 end
