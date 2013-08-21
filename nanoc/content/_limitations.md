@@ -36,7 +36,30 @@ Vagrant struggles with...
     * Distributable configuration
 <% end %>
 
-<%= partial 'limitations-dsl' %>
+<% slide do %>
+The Vagrantfile DSL
+-------------------------
+
+  * Pro - all the power of Ruby
+  * Con - all the power of Ruby
+
+<% notes do %>
+  * Great for Ruby developers
+  * Less great for non-developers
+  * It's a tarp!
+<% end %>
+
+<% end %>
+
+<%= partial 'madness' %>
 
 <%= partial 'limitations-network' %>
+
+<% slide do %>
+The reality
+-----------
+
+  * Vagrant can't support every configuration out of the box
+  * Batteries not included
+<% end %>
 
