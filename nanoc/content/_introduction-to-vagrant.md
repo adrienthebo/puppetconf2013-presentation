@@ -13,6 +13,14 @@ Mandatory audience fun time!
     * used Vagrant regularly?
     * developed on Vagrant or plugins?
     * created Vagrant?
+
+<% notes do %>
+  * heard of Vagrant?
+  * tried Vagrant?
+  * used Vagrant regularly?
+  * developed on Vagrant or plugins?
+  * created Vagrant?
+<% end %>
 <% end %>
 
 <% slide do %>
@@ -51,9 +59,7 @@ Hand rolled VMs
   * Full of forgotten hacks
   * "It works in my environment!"
 <% end %>
-
 <% end %>
-
 
 <% slide do %>
 Vagrant is...
@@ -84,5 +90,4 @@ Vagrant Workflow
   * Tear it down and have a clean environment
 
 <% end %>
-
 <% end %>
