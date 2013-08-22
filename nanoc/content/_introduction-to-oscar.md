@@ -243,7 +243,17 @@ Goal - from zero to PE in `vagrant up`
 Who uses it?
 ------------
 
+  * Commercial Support
+  * Open Source Support
   * Sales Engineering
-  * Commercial/Open Source Support
   * People... and stuff...
+
+<% notes do %>
+
+  * Commercial Support
+  * Open Source Support (hosts and `auto_network`)
+  * Sales Engineering
+  * People... and stuff...
+
+<% end %>
 <% end %>

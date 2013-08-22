@@ -64,6 +64,7 @@ Support ♥ Vagrant
   * Help customer^W^Wprofit!!!
 
 <% notes do %>
+  * As you might guess, Vagrant key to customer support
   * Support team workflow
     * Receive ticket
     * Duplicate client env with Vagrant

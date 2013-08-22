@@ -189,11 +189,14 @@ A descent into madness
     end
 {: style="font-size:2px; width:20%;"}
 
-<small>(This is a very sad Vagrantfile)</small>
+<small>(I'm sorry.)</small>
 
 <h2 class="fragment" style="vertical-align: middle;">DONT. DO. THIS.</span>
 
 <% notes do %>
+  * This is a Vagrantfile.
+  * I made this.
+  * I am sorry and I regret everything.
   * DON'T. DO. THIS.
 <% end %>
 
