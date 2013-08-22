@@ -1,4 +1,3 @@
-
 <% slide do %>
 Questions?
 ----------
@@ -12,11 +11,10 @@ Questions?
 Try it yourself
 ---------------
 
-  * Everything is on Github
-    * vagrant-hosts
-    * Oscar itself
-  * Code still under development
-    * contributions accepted!
+  * Code on Github
+  * Under active development
+  * contributions accepted!
+
 <% end %>
 
 <% slide do %>
@@ -25,8 +23,8 @@ Thanks
 
   * Tom Linkin!
   * Chris Barker!
-  * Hunter Haugen!
   * Charlie Sharpsteen!
+  * Hunter Haugen!
   * The fabulous Puppet and Vagrant community!
   * Exclamation points!
   * Many others!
@@ -38,5 +36,6 @@ Credits
 
   * Layout by Nanoc
   * Presentation by Reveal.js
+  * Consciousness by caffeine
 
 <% end %>
