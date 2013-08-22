@@ -58,6 +58,7 @@ Hand rolled VMs
   * Unreproducible
   * Full of forgotten hacks
   * "It works in my environment!"
+  * Fundamentally fragile
 <% end %>
 <% end %>
 
